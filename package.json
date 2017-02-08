@@ -1,0 +1,39 @@
+{
+  "name": "pixi-extra-events",
+  "version": "0.1.0",
+  "description": "Extra pixi pointer and touch events",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "cross-env NODE_ENV=test karma start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brinkbit/pixi-extra-events.git"
+  },
+  "keywords": [
+    "pixi.js",
+    "pixi",
+    "touch",
+    "events",
+    "touchout",
+    "touchover",
+    "pointerout",
+    "pointerover"
+  ],
+  "author": "Birnkbit",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/brinkbit/pixi-extra-events/issues"
+  },
+  "homepage": "https://github.com/brinkbit/pixi-extra-events#readme",
+  "devDependencies": {
+    "eslint": "^3.14.1",
+    "eslint-config-airbnb": "^14.0.0",
+    "eslint-plugin-import": "^2.2.0",
+    "eslint-plugin-jsx-a11y": "^3.0.2",
+    "eslint-plugin-react": "^6.9.0"
+  },
+  "peerDependencies": {
+    "pixi.js": "^4.3.4"
+  }
+}
